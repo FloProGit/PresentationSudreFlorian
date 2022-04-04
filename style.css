@@ -1,0 +1,184 @@
+/* ***********************GLOBAL************************* */
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+section{
+    padding-top: 60px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type:none;
+}
+/* ****************NAVBAR****************** */
+#Button_Open_Side_Bar{
+    position: fixed;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 50px ;
+    color: white;
+}
+#Button_Close_Side_Bar{
+    list-style-type:none;
+    position: fixed;
+    top :0;
+    left: -100;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 50px ;
+    color: white;
+    transition: 1s;
+}
+.Side_Bar{
+    padding-top: 100px;
+    overflow: hidden;
+    background-color: #24252A;
+    position: fixed;
+    width: 0%;
+    height: 90%;
+    transition: 1s;
+    border-radius: 0px 29px 0px 0px;
+}
+.Side_Bar ul{
+    padding: 10px;
+    display: block;
+    padding-bottom: 50px;
+}
+.Side_Bar li{
+    padding: 10px 10px;
+}
+.Side_Bar li a{
+    color: #edf0f1;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    height: 1em;
+}
+/* ************************************SectionMAIN************************************* */
+#main{
+padding: 0px 60px ;
+}
+/* _____________________________________________________ */
+
+#moi{
+padding: 0% 20%  ;    
+background-color: aquamarine;
+display: flex;
+}
+#moi h1{
+    font-size: 50px;
+}
+#moi h2{
+    font-size: 20px;
+}
+#moi_text p , #moi_text li{
+    font-size: 14px;
+}
+#moi_text ul{
+    padding-left: 30px;
+    list-style-type:circle;
+}
+/* _____________________________________________________ */
+
+
+#moi_text li{
+    padding: 5px 0px;
+    list-style-type:circle;
+}
+#moi_en_bref{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://via.placeholder.com/100x100");
+}
+#moi_en_bref_Text{
+    position: relative;
+    height:250px;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    background-color: blue;
+}
+#moi_en_bref_Text h1{
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+#moi_en_bref_Text p{
+    font-size: 16px;
+    text-align: center;
+}
+/* _____________________________________________________ */
+
+#Ma_citation{
+    height: 300px;
+    display: flex;
+    background-color:blanchedalmond;
+}
+#Ma_citation_Img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black; 
+}
+#Ma_citation_Img img{
+    display: block;
+    position: relative;
+    margin: auto auto ;
+    width: 50%;
+}
+#Ma_citation_Text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #24252a54;
+}
+/* _____________________________________________________ */
+#A_propos_de_moi{
+    background-color: aqua;
+    padding: 10% 25%;
+   
+}
+#A_propos_de_moi h1{
+    font-size: 30px;
+}
+#A_propos_de_moi h2{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* _____________________________________________________ */
+
+#projets_de_jeux{
+    padding: 10% 20%;
+    background-color: aliceblue;
+}
+#projets_de_jeux h3{
+    text-decoration: underline;
+}
+#projets_de_jeux h5{
+    font-style: italic;
+    text-decoration: underline;
+}
+#projets_de_jeux li{
+    margin: 0.5em 20%;
+    list-style-type:circle;
+}
+/* ************************************Preparatoire************************************* */
+
+/* ************************************PremiereAnnnée************************************* */
+
+/* ************************************DeuxiémeAnnnée************************************* */
+
+/* ************************************TroisiémeAnnnée************************************* */
+
+/* ***************************************Footer************************************************** */
+footer{
+    background-color: #24252A;
+}
